@@ -12,6 +12,13 @@ public class ApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println("==开发者b 添加的代码==");
+
+        String[] str={"aa","bb","cc"};
+
+        for (int i = 0; i < str.length; i++) {
+            String s = str[i];
+            System.out.println(s);
+        }
     }
 
 }
